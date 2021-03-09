@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS 적용하기</title>
+    <!-- Internal 방식 (유지보수) -->
+<style type = "text/css">
+	body { background-color: skyblue; }
+	h3 { color : red; }
+</style>
+<link rel ="stylesheet" href="css/common.css">
+</head>
+<body>
+	<!--  
+	css : Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+	Html 에 css 적용하기
+		1. Inline - by using the style attribute inside HTML elements
+		2. Internal - by using a <style> element in the <head> section
+		3. External - by using a <link> element to link to an external CSS file ( common.css )
+		
+		<block 태그> >> <p></p>
+		Use the CSS border property for borders
+		Use the CSS padding property for space inside the border
+		Use the CSS margin property for space outside the border
+-->
+	<h3> 1. Inline 방식</h3>
+	<p style="background-color : gold">문단캐드</p>
+	<h3 style ="color : green"> 나는 무슨 색 ? </h3>
+	<h3> 3. external 방식</h3>
+	<h1>외부 파일을 참조 합니다.</h1>
+	
+	<h3>웹상에서의 절대 경로</h3>
+	<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+	<h3>상대경로</h3>
+	<img src="images/10.png">	
+</body>
+</html>
